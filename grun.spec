@@ -39,8 +39,8 @@ rozszerzeniami plików i podwójny fork()/execvp() launcher aplikacji.
 rm -f missing
 gettextize --copy --force
 aclocal
-automake -a -c -f
-autoconf
+%{__automake}
+%{__autoconf}
 %configure \
 	--enable-associations
 %{__make}
