@@ -40,6 +40,7 @@ rozszerzeniami plików i podwójny fork()/execvp() launcher aplikacji.
 %build
 gettextize --copy --force
 aclocal
+automake -a -c
 autoconf
 %configure \
 	--enable-associations
