@@ -12,6 +12,8 @@ Source0:	http://www.geocities.com/ResearchTriangle/Facility/1468/sg/%{name}-%{ve
 URL:		http://www.geocities.com/ResearchTriangle/Facility/1468/sg/grun.html
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+-devel >= 1.1.2
+BuildRequires:	automake
+BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
@@ -37,6 +39,8 @@ rozszerzeniami plików i podwójny fork()/execvp() launcher aplikacji.
 
 %build
 gettextize --copy --force
+aclocal
+autoconf
 %configure \
 	--enable-associations
 %{__make}
