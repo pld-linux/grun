@@ -29,7 +29,7 @@ launcher.
 Witamy w gRun, zaawansowanym "odpalaczu" aplikacji napisanych w C oraz
 u¿ywaj±ca interfejsu GTK. gRun daje takie udogodnienia jak historia,
 uzupe³nianie komend z historii i ze ¶cie¿ki, rozpoznawanie aplikacji
-uruchamianych w konsoli, a tak¿e teraminal dla nich, kojarzenie z 
+uruchamianych w konsoli, a tak¿e teraminal dla nich, kojarzenie z
 rozszerzeniami plików i podwójny fork()/execvp() launcher aplikacji.
 
 %prep
