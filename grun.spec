@@ -6,11 +6,6 @@ Release:	1
 License:	GPL
 Vendor:		Bruce Smith <tangomanrulz@geocities.com>
 Group:		X11/Applications
-Group(de):	X11/Applikationen
-Group(es):	X11/Aplicaciones
-Group(pl):	X11/Aplikacje
-Group(pt_BR):	X11/Aplicações
-Group(pt):	X11/Aplicações
 Source0:	http://www.geocities.com/ResearchTriangle/Facility/1468/sg/%{name}-%{version}.tar.gz
 URL:		http://www.geocities.com/ResearchTriangle/Facility/1468/sg/grun.html
 BuildRequires:	gettext-devel
