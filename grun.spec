@@ -38,7 +38,7 @@ rozszerzeniami plików i podwójny fork()/execvp() launcher aplikacji.
 %build
 rm -f missing
 %{__gettextize}
-aclocal
+%{__aclocal}
 %{__automake}
 %{__autoconf}
 %configure \
