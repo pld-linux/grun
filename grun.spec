@@ -2,7 +2,7 @@ Summary:	gRun is an advanced application launcher written in C and GTK
 Summary(pl):	gRun jest zaawansowanym launcher'em do aplikacji napisanych w C i GTK
 Name:		grun
 Version:	0.9.2
-Release:	1
+Release:	2
 License:	GPL
 Vendor:		Bruce Smith <tangomanrulz@geocities.com>
 Group:		X11/Applications
