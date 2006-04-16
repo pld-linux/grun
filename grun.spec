@@ -4,15 +4,14 @@ Name:		grun
 Version:	0.9.2
 Release:	2
 License:	GPL
-Vendor:		Bruce Smith <tangomanrulz@geocities.com>
 Group:		X11/Applications
 Source0:	http://www.geocities.com/ResearchTriangle/Facility/1468/sg/%{name}-%{version}.tar.gz
 # Source0-md5:	f045fd0c34c81563d7177bfd2d9c9c16
 URL:		http://www.geocities.com/ResearchTriangle/Facility/1468/sg/grun.html
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+-devel >= 1.1.2
-BuildRequires:	automake
-BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
