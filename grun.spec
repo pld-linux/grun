@@ -1,5 +1,5 @@
 Summary:	gRun - an advanced application launcher written in C and GTK+
-Summary(pl):	gRun - napisane w C i GTK+ zaawansowane narzÍdzie do uruchamiania aplikacji
+Summary(pl.UTF-8):   gRun - napisane w C i GTK+ zaawansowane narzƒôdzie do uruchamiania aplikacji
 Name:		grun
 Version:	0.9.2
 Release:	2
@@ -22,12 +22,12 @@ console mode applications and launching a terminal for them, file
 extension associations and a dual fork()/execvp() application
 launcher.
 
-%description -l pl
+%description -l pl.UTF-8
 Witamy w gRun, zaawansowanym "odpalaczu" aplikacji napisanym w C oraz
-uøywaj±cym interfejsu GTK+. gRun daje takie udogodnienia jak historia,
-uzupe≥nianie komend z historii i ze ∂cieøki, rozpoznawanie aplikacji
-uruchamianych w konsoli, a takøe teraminal dla nich, kojarzenie z
-rozszerzeniami plikÛw i uruchamianie aplikacji przez podwÛjne
+u≈ºywajƒÖcym interfejsu GTK+. gRun daje takie udogodnienia jak historia,
+uzupe≈Çnianie komend z historii i ze ≈õcie≈ºki, rozpoznawanie aplikacji
+uruchamianych w konsoli, a tak≈ºe teraminal dla nich, kojarzenie z
+rozszerzeniami plik√≥w i uruchamianie aplikacji przez podw√≥jne
 fork()/execvp().
 
 %prep
