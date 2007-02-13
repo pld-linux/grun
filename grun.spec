@@ -1,5 +1,5 @@
 Summary:	gRun - an advanced application launcher written in C and GTK+
-Summary(pl.UTF-8):   gRun - napisane w C i GTK+ zaawansowane narzędzie do uruchamiania aplikacji
+Summary(pl.UTF-8):	gRun - napisane w C i GTK+ zaawansowane narzędzie do uruchamiania aplikacji
 Name:		grun
 Version:	0.9.2
 Release:	2
