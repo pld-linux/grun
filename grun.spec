@@ -10,7 +10,7 @@ Source0:	http://www.geocities.com/ResearchTriangle/Facility/1468/sg/%{name}-%{ve
 URL:		http://www.geocities.com/ResearchTriangle/Facility/1468/sg/grun.html
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+-devel >= 1.1.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
